@@ -75,7 +75,7 @@ class CatDetailsPage extends StatelessWidget {
                       RatingWidget(
                         title: 'Life span',
                         isRating: false,
-                        description: breed.lifeSpan,
+                        description: "${breed.lifeSpan} years",
                       ),
                       RatingWidget(
                         title: 'Temperament',
